@@ -16,7 +16,7 @@ The first step of the design was to look for the best sensor for such a project.
  - You can find all the detailed information regarding this project ![here](Final_project_report.pdf).
 ## Screenshots
 
-### STM32 microcontroller stepup
+### STM32 microcontroller setup
 ![](Screenshots/STM32_microcontroller_stepup.png)
 
 ### Protues simulation
