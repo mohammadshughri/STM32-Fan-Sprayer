@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"projecttest1\startup_stm32f103x6.o"
+"projecttest1\main.o"
+"projecttest1\stm32f1xx_it.o"
+"projecttest1\stm32f1xx_hal_msp.o"
+"projecttest1\lcd.o"
+"projecttest1\stm32f1xx_hal_gpio_ex.o"
+"projecttest1\stm32f1xx_hal_adc.o"
+"projecttest1\stm32f1xx_hal_adc_ex.o"
+"projecttest1\stm32f1xx_hal.o"
+"projecttest1\stm32f1xx_hal_rcc.o"
+"projecttest1\stm32f1xx_hal_rcc_ex.o"
+"projecttest1\stm32f1xx_hal_gpio.o"
+"projecttest1\stm32f1xx_hal_dma.o"
+"projecttest1\stm32f1xx_hal_cortex.o"
+"projecttest1\stm32f1xx_hal_pwr.o"
+"projecttest1\stm32f1xx_hal_flash.o"
+"projecttest1\stm32f1xx_hal_flash_ex.o"
+"projecttest1\stm32f1xx_hal_exti.o"
+"projecttest1\stm32f1xx_hal_tim.o"
+"projecttest1\stm32f1xx_hal_tim_ex.o"
+"projecttest1\stm32f1xx_hal_uart.o"
+"projecttest1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "ProjectTest1\ProjectTest1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ProjectTest1.map" -o ProjectTest1\ProjectTest1.axf
